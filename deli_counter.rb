@@ -6,7 +6,7 @@ def line(katz_deli)
     elsif katz_deli.length >=1 
     puts "The line is currently:"
     katz_deli.each do |name|
-      place_in_line= katz_deli.index("name")
+      place_in_line= katz_deli.index("name")+1 
       puts "#{place_in_line}. #{name}"
     end
   end 
