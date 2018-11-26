@@ -9,7 +9,7 @@ def line(katz_deli)
       place_in_line= katz_deli.index(name)+1 
       new_string << "#{place_in_line}. #{name}"
     end
-    new_string
+    puts new_string
   end 
 end 
 def take_a_number(katz_deli, name)
