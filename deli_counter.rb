@@ -7,7 +7,7 @@ def line(katz_deli)
     new_string= "The line is currently:"
     katz_deli.each do |name|
       place_in_line= katz_deli.index(name)+1 
-      new_string << "#{place_in_line}. #{name}"
+      new_string << " #{place_in_line}. #{name}"
     end
     puts new_string
   end 
